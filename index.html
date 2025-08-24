@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday — Sister & Brother</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Overlay for starting celebration -->
+  <div id="overlay">
+    <button id="startBtn">🎉 Start Celebration</button>
+  </div>
+
+  <div class="bg-gradient"></div>
+  <div id="balloons"></div>
+  <div id="confetti"></div>
+
+  <header class="hero">
+    <h1 class="title">
+      <span class="typing" data-text="Happy Birthday Sister 🎀 & Brother 🕶️">Happy Birthday Sister 🎀 & Brother 🕶️</span>
+    </h1>
+    <p class="subtitle">Wishing you both a day filled with smiles, surprises, and lots of cake 🎂</p>
+  </header>
+
+  <main class="cards">
+    <section class="card card-sis">
+      <div class="ribbon">SISTER</div>
+      <div class="photo">
+        <img src="assets/sis.jpg" alt="Sister Photo">
+      </div>
+      <h2>Happy Birthday, Sister! 🎀</h2>
+      <p class="msg">
+        You light up our world with your kindness and smile. May your year be as beautiful as your heart.
+      </p>
+      <div class="tags">
+        <span>#SweetSoul</span><span>#AlwaysSmiling</span><span>#BirthdayQueen</span>
+      </div>
+    </section>
+
+    <section class="card card-bro">
+      <div class="ribbon alt">BROTHER</div>
+      <div class="photo">
+        <img src="assets/bro.jpg" alt="Brother Photo">
+      </div>
+      <h2>Happy Birthday, Brother! 🕶️</h2>
+      <p class="msg">
+        Your strength and laughter make every day brighter. Wishing you adventures, growth, and joy ahead.
+      </p>
+      <div class="tags">
+        <span>#BestBro</span><span>#AlwaysThere</span><span>#BirthdayKing</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="from">
+      From: <span id="fromName" contenteditable="true" title="Click to edit">Your loving sister/brother — Esha</span> 💖
+    </div>
+    <div class="actions">
+      <label class="btn ghost">
+        Change Background
+        <input id="bgPicker" type="color" value="#b5e1ff" hidden>
+      </label>
+      <button id="toggleConfetti" class="btn ghost">🎉 Confetti</button>
+      <button id="downloadShot" class="btn ghost">📸 Save Card</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
